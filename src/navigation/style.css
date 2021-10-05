@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
+.myImage {
+  height: 95%;
+  width: 90%;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.avatar {
+  width: 100%;
+  border-bottom: 2px solid gray;
+  text-align: center;
+  align-items: center;
+  padding: 3px 0;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigate-items {
+  display: block;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 75%;
+  font-size: 1.4rem;
+  width: 100%;
+}
+.navigate-item {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.navigate-item a:hover:not(.active) {
+  background-color: rgb(20, 4, 66);
+}
+
+a {
+  display: block;
+  padding: 0.4rem 0;
+  position: relative;
+  color: #fff;
+  letter-spacing: 1px;
+  width: 100%;
+  margin-right: 2rem;
+  transition: all 0.3s cubic-bezier(0.17, 0.67, 0.97, 0.01);
+}
+.side-footer {
+  margin-top: 60%;
+  border-top: 2px solid gray;
+  width: 100%;
+  padding-top: 1rem;
+  color:white;
+}

@@ -1,0 +1,156 @@
+.main-form {
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  height: 100vh;
+  z-index: 1;
+  width: 100%;
+  margin-top: 2%;
+  position:absolute;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 900px) {
+    .content {
+      text-align: center;
+      grid-template-columns: 1fr;
+      width: 100%;
+      margin-left: -5rem;
+   
+    
+    }
+  }
+
+
+label {
+  color: white;
+  background-color: rgb(3, 3, 68);
+  font-size: 1.4rem;
+  margin-left: 6%;
+  text-align:center;
+  margin-top: -10px;
+  position: absolute; 
+  display: inline-block;
+  width:14%;
+}
+
+h5 {
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+  font-size: 35px;
+}
+
+input {
+  outline: none;
+  margin-left: 5%;
+  margin-top: 1%;
+  height: 2.5rem;
+  width: 100%;
+  font-size:1.2rem;
+  color: white;
+  background: transparent;
+  padding: 0 15px;
+  border: 1px solid white;
+}
+
+textarea {
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 95%;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 1.4rem;
+}
+.form-field {
+  margin-top: 8%;
+}
+
+.our-message {
+  margin-top: 3.8%;
+  background-color: (3, 3, 68);
+}
+
+
+
+button {
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 1.4rem;
+  background: transparent;
+  color: #fff;
+  width: 9rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 2.5rem;
+}
+
+h4 {
+  color: #fff;
+  font-size: 1.8rem;
+  padding-bottom: .3rem;
+}
+
+.left{
+    height: 90%;
+    width: 95%;
+ 
+   
+}
+.right{
+    height:100%;
+    text-align: center;
+    margin-bottom: 5rem;  
+ 
+}
+
+.left-content{
+    margin-top: 5%;
+   width:95%;
+}
+
+.right-data{
+  margin-top:11%;
+  font-size: 1.4rem;
+  padding-bottom: 3rem;
+  color: #fff;
+  border: 1px solid white;
+  letter-spacing: 1px;
+  width:95%;
+  display:flex;
+  background-color: rgb(78, 68, 68);
+ 
+}
+.phone-icon{
+ color: green;
+ margin-top: 5%;
+ width: 2.5rem;
+ height: 3rem;
+ 
+}
+
+.email-icon{
+  color: orangered;
+  margin-top: 5%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.address-icon{
+  color: red;
+  margin-top: 5%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.for-text{
+  margin-left: 2rem;
+  position: relative;
+  
+}
+
+

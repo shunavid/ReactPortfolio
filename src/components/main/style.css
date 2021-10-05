@@ -1,0 +1,111 @@
+.container {
+  justify-content: center;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+ 
+}
+
+
+@media screen and (max-width: 1000px) {
+  .typography-text {
+    transform:translateX(-50%);
+    position: relative;
+    margin-bottom: 5rem;
+  }
+}
+
+
+
+
+.particle-parts {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.typography-text {
+  text-align: center;
+  align-items: center;
+  left: 20%;
+  top: 15%;
+  right:20%;
+  color: white;
+  width: 40%;
+  position: absolute;
+
+}
+
+.icons {
+  display: flex;
+  margin-left: 25%;
+  width: 5%;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.icons:hover {
+  color: black;
+}
+
+.gitHub {
+  height: 3rem;
+  border-radius: 50%;
+  width: 3rem;
+  border: 1px solid gray;
+  padding: 2px;
+}
+
+.gitHub:hover {
+  color: purple;
+  border: 1px solid purple;
+}
+.gutHub-icon {
+  margin-left: 2rem;
+}
+.linkedIn {
+  border-radius: 50%;
+  border: 1px solid gray;
+  height: 3rem;
+  width: 3rem;
+
+  padding: 4px;
+}
+.linkedIn:hover {
+  color: blue;
+  border: 1px solid blue;
+}
+
+.linkedIn-logo {
+  height: 5rem;
+  width: 5rem;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  line-height: 25px;
+}
+span {
+  padding-bottom: 1rem;
+  font-family: courier;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  
+}
+
+.text-box {
+  display:flex;
+  font-size: 3rem;
+  width: 60rem;
+  text-align: left;
+
+}
+
+.fixed-text{
+  margin-right: 8px;
+}
+
+
