@@ -11,7 +11,11 @@ import { BsCloudDownload } from "react-icons/bs";
 function About() {
   return (
     <div className="about-us">
-      <h2 data-text="About Me">About Me</h2>
+      {/* <h2 data-text="About Me">About Me</h2> */}
+      <div className="about-content">
+        <h5>About Me</h5>
+        <h5>About Me</h5>
+      </div>
      
       <div className="full-info">
         <div className="left-side">
@@ -58,8 +62,14 @@ function About() {
           
         </div>
 
+        <div className="services-content">
+        <h5>Services</h5>
+        <h5>Services</h5>
+      </div>
         <div className="service-section">
-        <h2 data-text="Services..."> Services...</h2>
+        {/* <h2 data-text="Services..."> Services...</h2> */}
+
+       
 
         <div className="skill-section">
           <div className="service-title">

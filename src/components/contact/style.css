@@ -37,13 +37,6 @@ label {
   width:14%;
 }
 
-h5 {
-  margin-top: 5%;
-  margin-left: 5%;
-  color: white;
-  font-size: 35px;
-}
-
 input {
   outline: none;
   margin-left: 5%;
@@ -154,3 +147,35 @@ h4 {
 }
 
 
+.contact-content{
+  
+  position: relative;
+  padding-bottom: 5rem;
+  height:10%;
+
+}
+.contact-content h5 {
+  margin-bottom: 5rem;
+  position: absolute;
+  font-size: 4em;
+  translate:(-50%, -50%); 
+}
+
+.contact-content h5:nth-child(1){
+  color: transparent;
+  -webkit-text-stroke: 0.5px #fff;
+}
+.contact-content h5:nth-child(2){
+  color: #fff;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate
+{
+  0%, 100% {
+      clip-path: polygon(0 41%, 24% 50%, 41% 56%, 67% 65%, 79% 66%, 89% 59%, 100% 58%, 98% 99%, 1% 99%);
+  }
+  50%{
+      clip-path: polygon(0 64%, 18% 57%, 35% 68%, 55% 58%, 73% 46%, 92% 49%, 100% 45%, 99% 99%, 0% 99%);
+  }
+}

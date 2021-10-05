@@ -7,7 +7,10 @@ function Contact() {
   return (
     <div >
       
-      <h5>Contacts</h5>
+      <div className="contact-content">
+        <h5>Contacts</h5>
+        <h5>Contacts</h5>
+      </div>
       <div className="content">
           <div className="left">
         <h4>Get In Touch...</h4>

@@ -232,3 +232,130 @@ h3{
   margin-top: 5%;
   border-radius: 10%;
 }
+
+.about-content{
+  margin-top: 3rem;
+  position: relative;
+  height:5%;
+  margin-left: 5%;
+   margin-bottom: 10%;
+}
+ 
+@media  (max-width: 900px){
+  .about-content{
+    margin-bottom: 25%;
+    margin-left: -10%;
+  }
+}
+
+.about-content h5 {
+  margin-bottom: 1%;
+  position: absolute;
+  font-size: 4em;
+  translate:(-50%, -50%); 
+}
+
+.about-content h5:nth-child(1){
+  color: transparent;
+  -webkit-text-stroke: 0.5px #fff;
+
+}
+.about-content h5:nth-child(2){
+  color: #03a9f4;
+
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate
+{
+  0%, 100% {
+      clip-path: polygon(0 41%, 24% 50%, 41% 56%, 67% 65%, 79% 66%, 89% 59%, 100% 58%, 98% 99%, 1% 99%);
+  }
+  50%{
+      clip-path: polygon(0 64%, 18% 57%, 35% 68%, 55% 58%, 73% 46%, 92% 49%, 100% 45%, 99% 99%, 0% 99%);
+  }
+}
+.about-content{
+  margin-top: 3rem;
+  position: relative;
+  height:5%;
+  margin-left: 5%;
+   margin-bottom: 10%;
+}
+ 
+@media  (max-width: 900px){
+  .about-content{
+    margin-bottom: 25%;
+    margin-left: -10%;
+  }
+}
+
+.about-content h5 {
+  margin-bottom: 1%;
+  position: absolute;
+  font-size: 4em;
+  translate:(-50%, -50%); 
+}
+
+.about-content h5:nth-child(1){
+  color: transparent;
+  -webkit-text-stroke: 0.5px #fff;
+
+}
+.about-content h5:nth-child(2){
+  color: #fff;
+
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate
+{
+  0%, 100% {
+      clip-path: polygon(0 41%, 24% 50%, 41% 56%, 67% 65%, 79% 66%, 89% 59%, 100% 58%, 98% 99%, 1% 99%);
+  }
+  50%{
+      clip-path: polygon(0 64%, 18% 57%, 35% 68%, 55% 58%, 73% 46%, 92% 49%, 100% 45%, 99% 99%, 0% 99%);
+  }
+}
+.services-content{
+  margin-top: 3rem;
+  position: relative;
+  height:5%;
+  margin-left: 5%;
+  margin-bottom: 15%;
+}
+ 
+@media  (max-width: 900px){
+  .services-content{
+    margin-bottom: 40%;
+    margin-left: -10%;
+  }
+}
+
+.services-content h5 {
+  margin-bottom: 5%;
+  position: absolute;
+  font-size: 4em;
+  translate:(-50%, -50%); 
+}
+
+.services-content h5:nth-child(1){
+  color: transparent;
+  -webkit-text-stroke: 0.5px #fff;
+
+}
+.services-content h5:nth-child(2){
+  color: #fff;
+
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate
+{
+  0%, 100% {
+      clip-path: polygon(0 41%, 24% 50%, 41% 56%, 67% 65%, 79% 66%, 89% 59%, 100% 58%, 98% 99%, 1% 99%);
+  }
+  50%{
+      clip-path: polygon(0 64%, 18% 57%, 35% 68%, 55% 58%, 73% 46%, 92% 49%, 100% 45%, 99% 99%, 0% 99%);
+  }
+}

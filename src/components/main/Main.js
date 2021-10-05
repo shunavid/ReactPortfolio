@@ -14,10 +14,8 @@ function Main() {
 
       <div className="typography-text">
         <div className="text-box">
-        <div className="fixed-text">Hi, I'm </div>
-        <div className="animated-text">
-          <div><span>Shukrullah Navid</span></div>
-        </div>
+        <h6>Hi, I'm Shukrullah Navid</h6>
+       
         </div>
         <p>
           From an early age, I’ve always been deeply interested in computing and

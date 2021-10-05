@@ -56,3 +56,9 @@ a {
   padding-top: 1rem;
   color:white;
 }
+
+.side-footer p{
+  width: 90%;
+  margin-left: 2%;
+}
+
