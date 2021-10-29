@@ -150,7 +150,7 @@ function Resume() {
                 instructed visitors in IT and monitored the "Cyber Coffee"
               </li>
               <li>
-                Managed the classroo by incorporating motivating activities and
+                Managed the classroom by incorporating motivating activities and
                 positive reinforcement of ownership and cooperative behavior
               </li>
             </ul>
@@ -158,33 +158,38 @@ function Resume() {
         </div>
         <div className="qualify">
           <p>
-            <b className="main-job">Self-employed,</b> Computer Hardware and
-            Software Shop, Jaghori-Afghanistan
+            <b className="main-job">C#/ASP.NET Developer,</b> Ministry of Communication and IT,
+            Kabul, Afghanistan
             <br /> 04/2016 - 04/2017
             <ul className="unordered">
               <li>
-                Refocused on fixing and delivering DSL Antenna's and TV's to
-                customer{" "}
+                Developed, tested, implemented and maintained application Software
               </li>
               <li>
-                Founded and gained the Customer satisfaction in Computer
-                Software & Hardware Facilitation
+                Collaborated with team to design and implement features
+              </li>
+              <li>
+                Contributed to technical design documentation
+              </li>
+              <li>
+                Created and documented software tools required by artists or other developers 
               </li>
             </ul>
           </p>
         </div>
         <div className="qualify">
           <p>
-            <b className="main-job">Assistant Stabilization Advisor,</b> UK
-            foreign & Commonwealth Office, Kabul-Afghanistan
-            <br /> 02/2011 - 10/202011
+            <b className="main-job">Internship .Net Developer, </b> 
+            Enterprise Cyber Solutions, Islamabad, Pakistan
+            <br /> 02/2014 - 11/2014
             <ul className="unordered">
-              <li>Translated high volume of Documents </li>
-              <li>Gave presentations and On-boarded new-arrivals </li>
+              <li>Performed routine maintenance of existing applications </li>
+              <li>Developed and maintained code documentation, procedures and policies </li>
               <li>
-                Attended conferences and reported about social development{" "}
+               Installed, Configured and managed application code, database and related software Components
               </li>
               <li>Evaluated the performance of the stabilization team</li>
+              <li>Troubleshoot application and Database issues </li>
             </ul>
           </p>
         </div>
